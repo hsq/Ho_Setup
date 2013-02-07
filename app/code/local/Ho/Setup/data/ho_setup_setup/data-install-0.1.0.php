@@ -25,6 +25,6 @@
 /* @var $installer Ho_Setup_Model_Resource_Setup */
 $installer = $this;
 $installer->startSetup();
-echo 'ran';
-exit;
+//echo 'ran';
+//exit;
 $installer->endSetup();
