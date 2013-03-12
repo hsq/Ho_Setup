@@ -25,6 +25,12 @@
 /* @var $installer Ho_Setup_Model_Resource_Setup */
 $installer = $this;
 $installer->startSetup();
-//echo 'ran';
-//exit;
+
+
+//setup the tax
+Mage::getSingleton('ho_setup/setup_tax')->setup();
+
+//setup systemconfig
+
+
 $installer->endSetup();
